@@ -5,6 +5,7 @@ Percobaan 2 Build a Switch and Router Network bertujuan untuk membangun jaringan
 Sebelum router dikonfigurasi, ping antar-PC tidak berhasil karena router belum memiliki konfigurasi antarmuka (interface) yang menghubungkan dua jaringan berbeda. Akibatnya, tidak ada rute Layer 3 yang memungkinkan pengiriman paket data antar subnet.
 Dengan kata lain, PC-A dan PC-B berada di dua jaringan yang berbeda, dan karena default gateway (router) belum aktif atau belum diberi alamat IP, maka paket tidak dapat diteruskan antarjaringan.
 Sebelum di Konfigurasi
+https://github.com/Llianzz/Judul2-Jarkom/blob/19358f12fbe9abdff984e918b868bd6fcd130764/Screenshot%202025-11-06%20233404.png
 
 Setelah router dikonfigurasi dengan benar yaitu setiap antarmuka diberi alamat IP sesuai subnet dan diaktifkan dengan perintah no shutdown barulah router mampu melakukan routing antarjaringan. Saat perintah ping dijalankan kembali, ping berhasil karena router sudah berfungsi sebagai penghubung antar default gateway, setiap interface aktif dan memiliki alamat IP yang valid dan routing IPv4 dan IPv6 telah diaktifkan.
 Setelah Konfigurasi
